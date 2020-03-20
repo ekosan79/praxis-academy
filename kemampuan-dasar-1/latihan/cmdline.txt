@@ -1,0 +1,358 @@
+
+1.Perintah  VER kemudian Tekan Enter
+C:\Users\TRI>VER
+Microsoft Windows [Version 10.0.18362.719]
+Untuk Melihat Versi Pada Windos.
+
+2 Perintah HELP kemudian enter
+
+C:\Users\TRI>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+Perintah Help digunakan untuk  Membantu User pada saat Kesulitan dalam mengoprasikan komen line  atau list CMD.
+
+3. Perintah COLOR  \?
+C:\Users\TRI>COLOR COLOR \?
+Sets the default console foreground and background colors.
+
+COLOR [attr]
+
+  attr        Specifies color attribute of console output
+
+Color attributes are specified by TWO hex digits -- the first
+corresponds to the background; the second the foreground.  Each digit
+can be any of the following values:
+
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+
+If no argument is given, this command restores the color to what it was
+when CMD.EXE started.  This value either comes from the current console
+window, the /T command line switch or from the DefaultColor registry
+value.
+
+The COLOR command sets ERRORLEVEL to 1 if an attempt is made to execute
+the COLOR command with a foreground and background color that are the
+same.
+
+Press any key to continue . . .
+
+Perintah COLOR \? digunakan untuk melaihat deskripsi color dalam CMD yang bisa digunakan 
+
+4. Perintah mengubah tesk dan backgraoun color  COLOR [atribut]
+C:\Users\TRI>COLOR 17
+COLOR kemudian baris 1 angka 1 untuk mengubah warna background menjadi warna biru dan baris 2 angkan 7 untuk mengubah warna tulisan.
+
+5. Perintah CLS untuk Clear semua perintah yang telah diketikan sebelummnya , membersihkan jendela CMD .
+C:\Users\TRI>CLS
+
+6.Perintah EXIT  kemudian Enter Digunakan untuk keluar dari lembar kerja CMD. 
+
+7.Perintah dasar untuk melihat waktu melelui CMD
+C:\Users\TRI>time /t
+01:19 PM
+
+8.Perintah  dasar untuk melihat tanggal melalui CMD
+C:\Users\TRI>date /t
+Thu 03/19/2020
+
+9.Perintah untuk untuk melihat derektori dan folder
+C:\Users\TRI>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCCF-E9FA
+
+ Directory of C:\Users\TRI
+
+03/19/2020  12:59 PM    <DIR>          .
+03/19/2020  12:59 PM    <DIR>          ..
+02/26/2020  08:38 PM    <DIR>          .android
+08/13/2019  04:20 AM    <DIR>          .AndroidStudio3.4
+07/15/2019  04:17 AM    <DIR>          .docker
+08/13/2019  06:28 AM                16 .emulator_console_auth_token
+08/13/2019  07:20 AM    <DIR>          .gradle
+08/14/2019  09:12 AM    <DIR>          .VirtualBox
+11/20/2019  12:03 AM    <DIR>          .vscode
+03/15/2020  11:20 AM    <DIR>          3D Objects
+08/13/2019  04:50 AM    <DIR>          AndroidStudioProjects
+03/19/2020  12:59 PM                 0 COLOR
+03/15/2020  11:20 AM    <DIR>          Contacts
+03/19/2020  01:57 PM    <DIR>          Desktop
+03/17/2020  05:25 PM    <DIR>          Documents
+03/19/2020  01:58 PM    <DIR>          Downloads
+03/15/2020  11:20 AM    <DIR>          Favorites
+03/19/2020  12:55 PM                 0 help
+04/15/2019  03:02 PM    <DIR>          Intel
+03/15/2020  11:20 AM    <DIR>          Links
+03/15/2020  11:20 AM    <DIR>          Music
+02/21/2020  05:28 PM    <DIR>          OneDrive
+03/15/2020  11:20 AM    <DIR>          Pictures
+03/15/2020  11:20 AM    <DIR>          Saved Games
+03/15/2020  11:20 AM    <DIR>          Searches
+03/19/2020  12:56 PM                 0 ver
+03/19/2020  01:18 AM    <DIR>          Videos
+08/14/2019  09:10 AM    <DIR>          VirtualBox VMs
+03/15/2020  07:08 AM            15,211 _viminfo
+               5 File(s)         15,227 bytes
+              24 Dir(s)  21,773,680,640 bytes free
+
+Perintah DIR digunakan untuk melihat direktori/folder yang ada pada CMD
+
+10.Perintah berpindah Drive 
+C:\Users\TRI>D:
+
+D:\>C:
+
+C:\Users\TRI>
+
+perintah untuk pindah drive dangan mengetikan lokasi mana yang akan kita pindah contoh D: berpindah ke drive D. 
+ 
+11. perintah untuk masuk ke derktori /folder yang aktif dengan mengetikan CD kemudian Nama folder 
+C:\Users\TRI>cd Desktop
+
+C:\Users\TRI\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCCF-E9FA
+
+ Directory of C:\Users\TRI\Desktop
+
+03/19/2020  01:57 PM    <DIR>          .
+03/19/2020  01:57 PM    <DIR>          ..
+07/23/2019  03:34 AM             1,216 Baidu WiFi Hotspot.lnk
+07/23/2019  03:37 AM    <DIR>          BaiduWifi
+03/12/2020  11:56 PM               534 cv.txt
+11/22/2019  03:19 AM    <DIR>          ebook
+
+12.perintah membuat direktori pad cmd
+C:\Users\TRI\Desktop>md Latihan1
+C:\Users\TRI\Desktop>md Latihan2
+
+C:\Users\TRI\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCCF-E9FA
+
+ Directory of C:\Users\TRI\Desktop
+03/19/2020  03:09 PM    <DIR>          Latihan1
+03/19/2020  03:10 PM    <DIR>          Latihan2
+
+Perintah membuat direktori /folder dengan mengetikan md nama_folder
+Perintah md /? mengetahui sepua perintah md
+C:\Users\TRI\Desktop>md /?
+Creates a directory.
+
+MKDIR [drive:]path
+MD [drive:]path
+
+If Command Extensions are enabled MKDIR changes as follows:
+
+MKDIR creates any intermediate directories in the path, if needed.
+For example, assume \a does not exist then:
+
+    mkdir \a\b\c\d
+
+is the same as:
+
+    mkdir \a
+    chdir \a
+    mkdir b
+    chdir b
+    mkdir c
+    chdir c
+    mkdir d
+
+which is what you would have to type if extensions were disabled.
+
+
+13.Menghapus direktori folder dengan mengetikan rd
+C:\Users\TRI\Desktop>rd Latihan1
+03/19/2020  03:10 PM    <DIR>          Latihan2
+C:\Users\TRI\Desktop>rd/?
+Removes (deletes) a directory.
+
+RMDIR [/S] [/Q] [drive:]path
+RD [/S] [/Q] [drive:]path
+
+    /S      Removes all directories and files in the specified directory
+            in addition to the directory itself.  Used to remove a directory
+            tree.
+
+    /Q      Quiet mode, do not ask if ok to remove a directory tree with /S
+
+14.Membuat file dengan perintah copy con nama file dan extensi.
+
+C:\Users\TRI\Desktop>copy con latihan.txt.
+ketik isi nama didalam file . dan apabila menyimpan tekan CTRL + z kemudian enter maka akan tersimpan.
+
+
+
+15.perintah untuk melihat susunan derekroti berbentu pohon 
+
+C:\Users\TRI\Desktop>tree
+Folder PATH listing
+Volume serial number is BCCF-E9FA
+C:.
+ÃÄÄÄBaiduWifi
+ÃÄÄÄebook
+ÃÄÄÄflutter
+³   ÀÄÄÄflutter_watch_shop
+³       ÃÄÄÄ.dart_tool
+³       ³   ÀÄÄÄflutter_build
+³       ³       ÀÄÄÄ0973539615bda16f4279fb4b4474f29f
+³       ÃÄÄÄandroid
+³       ³   ÃÄÄÄ.gradle
+³       ³   ³   ÃÄÄÄ4.10.2
+³       ³   ³   ³   ÃÄÄÄfileChanges
+³       ³   ³   ³   ÃÄÄÄfileContent
+³       ³   ³   ³   ÃÄÄÄfileHashes
+³       ³   ³   ³   ÃÄÄÄjavaCompile
+³       ³   ³   ³   ÃÄÄÄtaskHistory
+³       ³   ³   ³   ÀÄÄÄvcsMetadata-1
+³       ³   ³   ÃÄÄÄbuildOutputCleanup
+³       ³   ³   ÀÄÄÄvcs-1
+³       ³   ÃÄÄÄapp
+
+16.Untuk melihat isi konten dari suatu file dengan pertintah TYPE
+C:\Users\TRI\Desktop>type latihan.txt
+INI LATIHAN dengan menggunakan perintah copy con nama file dan untuk menyimpan tekan ctrl+ Z
+
+17.Mengubah file nama dari latihan.txt menjadi berubah.txt 
+
+C:\Users\TRI\Desktop>rename latihan.txt berubah.txt
+
+18.menghapus file dan folder .
+C:\Users\TRI\Desktop>del berubah.txt
+
+19.perintah cek untuk koneksi internet
+
+C:\Users\TRI\Desktop>ping google.com
+
+Pinging google.com [74.125.200.138] with 32 bytes of data:
+Reply from 74.125.200.138: bytes=32 time=181ms TTL=42
+Reply from 74.125.200.138: bytes=32 time=88ms TTL=42
+Request timed out.
+Request timed out.
+
+Ping statistics for 74.125.200.138:
+    Packets: Sent = 4, Received = 2, Lost = 2 (50% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 88ms, Maximum = 181ms, Average = 134ms
+
+20.melihat IP pada komputer lewat CMD
+C:\Users\TRI\Desktop>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter vEthernet (DockerNAT):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::e832:b602:bebc:92a2%20
+   IPv4 Address. . . . . . . . . . . : 10.0.75.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
