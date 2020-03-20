@@ -1,0 +1,10 @@
+![pratik-2-1](https://user-images.githubusercontent.com/51659919/77185668-bc3b3d80-6b0c-11ea-86fd-6f46d7ed58d7.PNG)
+![pratik-2-2](https://user-images.githubusercontent.com/51659919/77185649-b80f2000-6b0c-11ea-8c75-c66ca234a8ee.PNG)
+![pratik-2-3](https://user-images.githubusercontent.com/51659919/77185652-b9d8e380-6b0c-11ea-98c1-5e14c1cdd07e.PNG)
+![pratik-2-4](https://user-images.githubusercontent.com/51659919/77185653-b9d8e380-6b0c-11ea-80e9-123c6ea498de.PNG)
+![pratik-2-5](https://user-images.githubusercontent.com/51659919/77185656-ba717a00-6b0c-11ea-9e1c-5b2423b0d70b.PNG)
+![pratik-2-6](https://user-images.githubusercontent.com/51659919/77185657-bb0a1080-6b0c-11ea-9e4f-35387b67cf67.PNG)
+![pratik-2-7](https://user-images.githubusercontent.com/51659919/77185661-bb0a1080-6b0c-11ea-8dc8-b0473f375593.PNG)
+![pratik-2-8](https://user-images.githubusercontent.com/51659919/77185663-bba2a700-6b0c-11ea-87d6-5c299124b991.PNG)
+![pratik-2-9](https://user-images.githubusercontent.com/51659919/77185665-bc3b3d80-6b0c-11ea-942a-f72ad24e8a98.PNG)
+
